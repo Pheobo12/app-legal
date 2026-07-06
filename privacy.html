@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy</title>
+<title>Privacy Policy — Pie Bookkeeper</title>
 <style>
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:720px;margin:48px auto;padding:0 24px;color:#222;line-height:1.7}
 h1{font-size:1.8rem;margin-bottom:4px}h2{font-size:1.1rem;margin-top:2rem}
@@ -12,37 +12,41 @@ h1{font-size:1.8rem;margin-bottom:4px}h2{font-size:1.1rem;margin-top:2rem}
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="meta">Last updated: June 18, 2026</p>
+<p class="meta">Pie Bookkeeper &middot; Last updated: July 5, 2026</p>
 
 <h2>1. Overview</h2>
-<p>This application is a personal-use integration that connects to QuickBooks Online via the Intuit API. It is operated solely by Daniel Santana for his own internal bookkeeping and financial management purposes. No data is shared with third parties.</p>
+<p>Pie Bookkeeper is internal software owned and operated by Pie Accounting, LLC ("Pie Accounting," "we," "us," or "our"). It is used exclusively by Pie Accounting's authorized bookkeeping staff to deliver bookkeeping and accounting services to Pie Accounting's clients. Pie Bookkeeper is not made available to the public, to clients directly, or to any other firm. This policy explains what data Pie Bookkeeper accesses through the QuickBooks Online API, how that data is used, and how it is protected.</p>
 
 <h2>2. Data We Access</h2>
-<p>By authorizing this application, it may access the following data from your QuickBooks Online account:</p>
+<p>Under its existing engagement to provide bookkeeping services, Pie Accounting connects Pie Bookkeeper to the QuickBooks Online company files of its clients via the Intuit API. Depending on the services provided to a given client, this may include:</p>
 <ul>
-<li>Company information (name, address, fiscal year)</li>
+<li>Company information (name, address, fiscal year, chart of accounts)</li>
 <li>Customers and vendors</li>
-<li>Invoices, bills, payments, and expenses</li>
-<li>Chart of accounts and financial reports</li>
+<li>Invoices, bills, payments, and expense transactions</li>
+<li>Bank and credit card transaction feeds used for reconciliation</li>
+<li>Financial reports (profit &amp; loss, balance sheet, aging summaries)</li>
 </ul>
 
-<h2>3. How We Use Your Data</h2>
-<p>All data accessed through this application is used exclusively for personal financial management and bookkeeping. Data is processed locally on the user's own machine and is never transmitted to external servers or third-party services.</p>
+<h2>3. How We Use Data</h2>
+<p>Data accessed through Pie Bookkeeper is used exclusively to perform bookkeeping and accounting services on behalf of Pie Accounting's clients — for example, categorizing transactions, reconciling accounts, running month-end close checklists, and following up with clients about unresolved items. Access is limited to the bookkeeping staff assigned to a given client. Data is never used for advertising, sold, or repurposed for any use unrelated to the client engagement under which it was collected.</p>
 
-<h2>4. Data Storage</h2>
-<p>OAuth tokens required for authentication are stored locally on the user's machine at <code>~/.qbo/tokens.json</code>. No QuickBooks data is stored persistently — all data is fetched on demand and held only in memory during a session.</p>
+<h2>4. Data Storage and Security</h2>
+<p>Pie Bookkeeper connects to QuickBooks Online over encrypted (TLS/HTTPS) connections, consistent with Intuit's API requirements. Each user of Pie Bookkeeper authenticates with individual, per-user credentials, and access to client data is restricted to the staff assigned to that client. Pie Accounting maintains a Written Information Security Program (WISP) governing safeguards for client financial data — including multi-factor authentication on firm systems, encryption, access controls, and vendor oversight — consistent with IRS Publication 4557 and the FTC Safeguards Rule. OAuth credentials used to connect to QuickBooks Online are held in a secured credential store and are never shared outside Pie Accounting.</p>
 
 <h2>5. Data Sharing</h2>
-<p>We do not sell, rent, or share any data with third parties. This application has no analytics, advertising, or data collection components.</p>
+<p>Pie Accounting does not sell, rent, or share client data accessed through Pie Bookkeeper with third parties, except as necessary to provide the bookkeeping services a client has engaged Pie Accounting to perform (for example, a service provider supporting Pie Accounting's operations under its own confidentiality obligations). Pie Bookkeeper has no advertising or analytics components that transmit client data to outside parties.</p>
 
-<h2>6. Security</h2>
-<p>Access tokens are stored locally and protected by the security controls of the user's operating system. The application uses OAuth 2.0 for authentication with Intuit's platform.</p>
+<h2>6. Data Retention</h2>
+<p>Client data is retained only as long as needed to provide bookkeeping services and to meet Pie Accounting's recordkeeping obligations under applicable law and its client engagement agreements. Clients may request deletion of data specific to Pie Bookkeeper by contacting Pie Accounting directly.</p>
 
 <h2>7. Your Rights</h2>
-<p>You may revoke this application's access to your QuickBooks Online account at any time via <a href="https://accounts.intuit.com" target="_blank">accounts.intuit.com</a> under Connected Apps.</p>
+<p>Clients and Pie Accounting personnel may revoke Pie Bookkeeper's access to a QuickBooks Online company at any time via <a href="https://accounts.intuit.com" target="_blank">accounts.intuit.com</a> under Connected Apps. Questions about data handling can be directed to the contact below.</p>
 
-<h2>8. Contact</h2>
-<p>For any questions regarding this privacy policy, contact: <a href="mailto:pheobo@gmail.com">pheobo@gmail.com</a></p>
+<h2>8. Changes to This Policy</h2>
+<p>We may update this policy as Pie Bookkeeper's features or hosting change. The "Last updated" date above reflects the most recent revision.</p>
+
+<h2>9. Contact</h2>
+<p>For questions regarding this privacy policy, contact: <a href="mailto:bookkeeping@pieaccounting.com">bookkeeping@pieaccounting.com</a></p>
 
 </body>
 </html>
